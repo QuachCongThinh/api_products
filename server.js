@@ -3,12 +3,12 @@ const app = express();
 const port = 3001;
 
 app.all("*", function (req, res) {
-  res.render("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Origin", "*");
   req.next();
   //...
 });
 
-app.get("/", function (req, res) {
+app.get("/", (req, res) => {
   res.json("");
 });
 
@@ -206,5 +206,5 @@ app.get("/products", (req, res) => {
 });
 
 app.listen(port, (req, res) => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Server is listening on port ${port}`);
 });
