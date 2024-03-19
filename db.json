@@ -1,6 +1,8 @@
 {
   "products": [
     {
+      "id": "1",
+      
       "title": "Slides",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
       "product": [
@@ -25,6 +27,7 @@
       ]
     },
     {
+      "id": "2",
       "title": "Pizzas",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
       "product": [
@@ -55,9 +58,10 @@
       ]
     },
     {
+      "id": "3",
       "title": "Salads",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-      "product": [
+      "products": [
         {
           " imageUrl": "http://androthemes.com/themes/react/slices/assets/img/prods-sm/15.png",
           "name": "Ceaser Salad",
@@ -67,6 +71,7 @@
       ]
     },
     {
+      "id": "4",
       "title": "Pasta",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
       "product": [
@@ -79,6 +84,7 @@
       ]
     },
     {
+      "id": "5",
       "title": "Desserts",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
       "product": [
@@ -103,9 +109,10 @@
       ]
     },
     {
+      "id": "6",
       "title": "Beverages",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-      "product": [
+      "products": [
         {
           " imageUrl": "http://androthemes.com/themes/react/slices/assets/img/prods-sm/13.png",
           "name": "Rum With Soda",
@@ -127,9 +134,10 @@
       ]
     },
     {
+      "id": "7",
       "title": "Offers",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-      "product": [
+      "products": [
         {
           " imageUrl": "http://androthemes.com/themes/react/slices/assets/img/prods-sm/2.png",
           "name": "Vegetarian",
